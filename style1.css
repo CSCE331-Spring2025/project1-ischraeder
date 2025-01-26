@@ -1,5 +1,5 @@
 .button {
-    background-color: #B57EDC; /* Green */
+    background-color: #B57EDC; 
     border: none;
     color: rgb(0, 0, 0);
     padding: 15px 32px;
@@ -7,8 +7,67 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    float: left;
   }
 
 .button:hover {
-    background-color: #E6E6FA; /* Green */
+    background-color: #E6E6FA;
 }
+
+.button_disabled {
+    background-color: #d3d3ff; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: left;
+  }
+
+.image_ian {
+    border: 4mm  solid  #B57EDC;
+    float: right;
+    width: 20vw;
+    margin-right: 45px;
+}
+
+.image_pc {
+    border: 4mm  solid  #B57EDC;
+    float: left;
+    width: 32vw;
+    margin-right: 45px;
+}
+
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 60px
+}
+
+div{
+    clear: both;
+    margin-top: 0%;
+    margin-bottom: 5vw;
+    margin-right: 5vw;
+    margin-left: 5vw; 
+}
+
+.toolbar{
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    margin-right: 0vw;
+    margin-left: 0vw; 
+}
+
+p{
+    margin-left: 1vw;
+}
+
+body {
+    background-color: #d0bfdd;;
+    border:10vw solid #E6E6FA
+  }
