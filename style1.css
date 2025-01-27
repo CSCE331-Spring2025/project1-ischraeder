@@ -48,6 +48,14 @@ h2{
     font-size: 60px
 }
 
+.timeline_bold{
+    font-weight: bolder;
+    text-shadow: 2px 2px #a062cc;
+    font-size:20px;
+    margin-bottom: none;
+    padding:0px 0px;
+}
+
 div{
     clear: both;
     margin-top: 0%;
@@ -69,5 +77,22 @@ p{
 
 body {
     background-color: #d0bfdd;
-    border:10vw solid #E6E6FA
+    border:10vw solid #E6E6FA;
+  }
+
+.timeline_element{
+    width: 40vw;
+    min-height: 50px;
+    background-color: #B57EDC;
+    box-shadow: 10px 10px #d2d2ff;
+}
+
+.timeline_dot {
+    height: 25px;
+    width: 25px;
+    background-color:#0000ff;
+    border-radius: 50%;
+    display: inline-block;
+    display:block;
+    float: right;
   }
