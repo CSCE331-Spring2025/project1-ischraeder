@@ -40,6 +40,13 @@
     margin-right: 45px;
 }
 
+.image_icon {
+    width: 6vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1{
     font-size: 100px;
 }
@@ -54,6 +61,15 @@ h2{
     font-size:20px;
     margin-bottom: none;
     padding:0px 0px;
+}
+
+.interest_bold{
+    font-weight: bolder;
+    text-shadow: 2px 2px #a062cc;
+    font-size:20px;
+    margin-bottom: none;
+    padding:0px 0px;
+    text-align: center;
 }
 
 div{
@@ -95,4 +111,15 @@ body {
     display: inline-block;
     display:block;
     float: right;
+  }
+
+.interest_grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    
+  }
+
+  .pdf{
+    text-align: center;
+    margin-left:18vw;
   }
