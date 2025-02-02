@@ -1,5 +1,5 @@
 .button {
-    background-color: #B57EDC; 
+    background-color: #463bbb; 
     border: none;
     color: rgb(0, 0, 0);
     padding: 15px 32px;
@@ -8,14 +8,15 @@
     display: inline-block;
     font-size: 16px;
     float: left;
+    box-shadow: 10px 10px #000054;
   }
 
 .button:hover {
-    background-color: #fae6e8;
+    background-color: #36a5ff;
 }
 
 .button_disabled {
-    background-color: #d3d3ff; 
+    background-color: rgb(171, 199, 255);
     border: none;
     color: rgb(0, 0, 0);
     padding: 15px 32px;
@@ -24,20 +25,26 @@
     display: inline-block;
     font-size: 16px;
     float: left;
+    box-shadow: 10px 10px #000054;
+    
   }
 
 .image_ian {
-    border: 4mm  solid  #B57EDC;
-    float: right;
+    border: 4mm  solid  #aad0ff;
+    float: left;
     width: 20vw;
     margin-right: 45px;
+    box-shadow: 10px 10px #000054;
+    border-radius: 50%;
 }
 
 .image_pc {
-    border: 4mm  solid  #B57EDC;
+    border: 4mm  solid  #aad0ff;
     float: left;
     width: 32vw;
     margin-right: 45px;
+    box-shadow: 10px 10px #000054;
+    border-radius: 50%;
 }
 
 .image_icon {
@@ -49,15 +56,17 @@
 
 h1{
     font-size: 100px;
+    
 }
 
 h2{
-    font-size: 60px
+    font-size: 60px;
+    text-decoration-line: underline;
 }
 
 .timeline_bold{
     font-weight: bolder;
-    text-shadow: 2px 2px #a062cc;
+    text-shadow: 2px 2px #b2d2ff;
     font-size:20px;
     margin-bottom: none;
     padding:0px 0px;
@@ -65,7 +74,7 @@ h2{
 
 .interest_bold{
     font-weight: bolder;
-    text-shadow: 2px 2px #a062cc;
+    text-shadow: 2px 2px #b2d2ff;
     font-size:20px;
     margin-bottom: none;
     padding:0px 0px;
@@ -74,10 +83,8 @@ h2{
 
 div{
     clear: both;
-    margin-top: 0%;
-    margin-bottom: 5vw;
-    margin-right: 5vw;
-    margin-left: 5vw; 
+    box-shadow: 10px 10px #000054;
+    background-color: #36a5ff;
 }
 
 .toolbar{
@@ -92,15 +99,15 @@ p{
 }
 
 body {
-    background-color: #dd0e0e;
-    border:10vw solid #eeee11;
+    background-color: #4c9cde;
   }
 
 .timeline_element{
     width: 40vw;
     min-height: 50px;
-    background-color: #B57EDC;
-    box-shadow: 10px 10px #d2d2ff;
+    background-color: #7ea7dc;
+    box-shadow: 10px 10px #11115b;
+    border-radius: 10%;
 }
 
 .timeline_dot {
@@ -115,11 +122,25 @@ body {
 
 .interest_grid {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    
+    grid-template-columns: 100%;
+    width: 40vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    margin-right: 0vw;
+    margin-left: 10vw;
+    display: inline-block; 
   }
 
   .pdf{
-    text-align: center;
-    margin-left:18vw;
+    float: left;
+    clear: both;
+  }
+
+  .fortheme2only{
+    float: left;
+    clear: both;
+  }
+
+  .fortheme2only2{
+    margin-left: 45vw;
   }
