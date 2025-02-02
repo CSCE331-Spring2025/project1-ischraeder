@@ -11,11 +11,7 @@
   }
 
 .button:hover {
-    background-color: #E6E6FA;
-}
-
-.circle_button{
-    border-radius: 100px;
+    background-color: #fae6e8;
 }
 
 .button_disabled {
@@ -96,8 +92,8 @@ p{
 }
 
 body {
-    background-color: #d0bfdd;
-    border:10vw solid #E6E6FA;
+    background-color: #dd0e0e;
+    border:10vw solid #eeee11;
   }
 
 .timeline_element{
