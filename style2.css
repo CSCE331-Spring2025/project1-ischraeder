@@ -103,11 +103,13 @@ body {
   }
 
 .timeline_element{
-    width: 40vw;
+    width: 60vw;
     min-height: 50px;
     background-color: #7ea7dc;
     box-shadow: 10px 10px #11115b;
-    border-radius: 10%;
+    border-radius: 15%;
+    overflow: hidden;
+    margin-bottom: 5vw;
 }
 
 .timeline_dot {
@@ -143,4 +145,10 @@ body {
 
   .fortheme2only2{
     margin-left: 45vw;
+  }
+
+  .timelineimg{
+    width: 20vw;
+    float:right;
+    display: inline-block;
   }
