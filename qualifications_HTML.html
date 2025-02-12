@@ -3,49 +3,55 @@
 <head>
 </head>
 <body>
-    <div>
-        <a href="https://people.tamu.edu/~ischraeder/index.html">Landing Page</a>
-        <a href="https://people.tamu.edu/~ischraeder/portfolio.html">Technical Portfolio</a>
-        <a href="https://people.tamu.edu/~ischraeder/qualifications.html">Qualifications</a>
-        <a href="https://people.tamu.edu/~ischraeder/service.html">Service</a>
-        <a href="https://people.tamu.edu/~ischraeder/genai.html">AI-Generated</a>
+    <div class = "toolbar">
+        <a class="button_disabled" href="https://people.tamu.edu/~ischraeder/index_HTML.html">Landing Page</a>
+        <a class="button" href="https://people.tamu.edu/~ischraeder/portfolio_HTML.html">Technical Portfolio</a>
+        <a class="button" href="https://people.tamu.edu/~ischraeder/qualifications_HTML.html">Qualifications</a>
+        <a class="button" href="https://people.tamu.edu/~ischraeder/service_HTML.html">Service</a>
+        <a class="button" href="https://people.tamu.edu/~ischraeder/genai.html">AI-Generated</a>
     </div>
-
+    
     <br>
 
-    <h2>Resume</h2>
+    <h2 class = "fortheme2only">Resume</h2>
 
     <iframe class="pdf" src="https://drive.google.com/file/d/1CNtRiaxdfrr0k7WNxKtBlcdsVwoexXIe/preview" width="640" height="480" allow="autoplay"></iframe>
 
-    <h2 >Interests</h2>
+    <h2 class="fortheme2only2">Interests</h2>
 
-    <div >
+    <div class="interest_grid">
         <div>
-            <img src="calculator.png" alt="Mathematics">
+            <img class = "image_icon" src="calculator.png" alt="Mathematics">
             <p class="interest_bold">Mathematics</p>
             <p>Having an emphasis area in Mathematics, I have taken classes in calculus, complex analysis, differential 
                 and partial differential equations, Fourier series, perterbation theory, and other engineering applications outside
-                of the requirements of the computer science ciriculum. </p>
+                of the requirements of the computer science ciriculum. We used these tools to solve everything from problems in physics,
+            such as the heat equation or quantum mechanics, to demontrating abstract mathematical truths, such as the residue theorum and its 
+            applications to solving integrals. Additionally, I have taken classes in computational computing, helping me to apply compuational methods
+            to implement all of these things on a computer.</p>
         </div>
 
         <div>
-            <img src="brain.png" alt="Ai">
+            <img class = "image_icon" src="brain.png" alt="Ai">
             <p class="interest_bold">Computational Linguistics and Ai</p>
-            <p>I have a significant interest in Ai and Computational linguistics and have taken a class on the topic. I have contributed
-                to the Wiktionary project by contributing to charts which automatically conjugate certain verbs. 
+            <p>I have a significant interest in Ai and Computational linguistics and am taking classes on these topic. At the request of several linguists, 
+                I have contributed to the Wiktionary project by creating LUA scripts which display the expected conjugations of certain verbs in the old Mercian
+                and Northumbrian languages, a feature which had long been desired by the students of those languages. Although this project is incomplete, other
+                developers have made adjustments to the project and I have plans to continue working on it with those same linguists in the near future. 
             </p>
         </div>
 
         <div>
-            <img src="processor.png" alt="Software Engineering">
-            <p>Software Engineering</p>
-            <p>I have several years of experience programming in C++, C#, Java, and other programming languages. I have used tools like 
-                <a href="https://www.qt.io/product/framework">QT</a>
-                , Visual Studio and VS 
-                Code, Unreal Engine, and other tools to manage large projects.
+            <img class = "image_icon" src="processor.png" alt="Software Engineering">
+            <p class="interest_bold">Software Engineering</p>
+            <p>I have several years of experience programming in C++, C#, Java, Python, LUA, Assembly, and other programming languages. I have used tools like 
+                <a href="https://www.qt.io/product/framework">QT</a>, Java FX, Visual Studio and VS Code, Unreal Engine, Github, 
+                and other tools to manage large projects. These projects were in areas including Video Games, Web Development, Database management,
+                computational linguistics, and operating systems. 
             </p>
         </div>
       </div> 
 
+      <script src="functions.js"></script>
 </body>
 </html>
